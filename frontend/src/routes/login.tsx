@@ -74,8 +74,6 @@ function Login() {
           alignSelf="center"
           mb={4}
         />
-        sup
-        
         <Field
           invalid={!!errors.username}
           errorText={errors.username?.message || !!error}
