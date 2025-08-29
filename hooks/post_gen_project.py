@@ -1,6 +1,7 @@
 from pathlib import Path
 
 
+
 path: Path
 for path in Path(".").glob("**/*.sh"):
     data = path.read_bytes()
